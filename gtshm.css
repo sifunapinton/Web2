@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(6, 0, 0);
+}
+
+nav {
+    height: 70px;
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 205px;
+    margin-right: 205px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    vertical-align: middle;
+    padding: 0 15px;
+}
+
+nav ul li:hover {
+    color: rgb(202, 15, 8);
+}
+
+nav:hover {
+    color: rgb(10, 10, 10);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: rgb(202, 15, 8);
+}
+
+.home {
+    position: relative;
+    display: grid;
+    height: 100%;
+}
+
+img.hm {
+    display: block;
+    max-width: 100%;
+    height: 100vh;
+    margin: auto;
+}
+
+.hov {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transition: 15s ease;
+    opacity:0;
+    color: rgb(247, 9, 9);
+    font-size: 85px;
+    font-weight: bold;
+    text-align: center;
+}
+
+img.hm:hover {
+    opacity:0.6;
+}
+
+img.logo1 {
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+
+img.logo2 {
+    width: 200px;
+    height: 70px;
+    float: right;
+}

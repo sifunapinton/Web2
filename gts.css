@@ -1,0 +1,181 @@
+body {
+    background-color: black;
+    color: rgb(116, 116, 116);
+    border-radius: 10px;
+    box-shadow: inset 0 0 15px rgb(58, 58, 58);
+    background-image: url(bg1.jpg);
+}
+
+.ps {
+    padding-right: 230px;
+    padding-left: 10px;
+}
+
+p.pr {
+    box-shadow: inset 0 0 15px rgb(58, 58, 58);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.pr:hover {
+    color: rgb(145, 145, 145);
+    background-color: black;
+}
+
+nav {
+    height: 70px;
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 205px;
+    margin-right: 205px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    vertical-align: middle;
+    padding: 0 15px;
+}
+
+nav ul li:hover {
+    color: rgb(202, 15, 8);
+}
+
+nav:hover {
+    color: rgb(10, 10, 10);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: rgb(202, 15, 8);
+}
+
+img.logo1 {
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+
+img.logo2 {
+    width: 200px;
+    height: 70px;
+    float: right;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(12, 12, 12);
+    border-radius: 10px;
+    color: beige;
+    margin: 8px;
+}
+
+h1:hover {
+    color: rgb(151, 0, 0);
+    background-color: rgb(10, 10, 10);
+}
+
+img.ig {
+    float: right;
+    padding: 0 10px 15px 5px;
+    height: 250px;
+    clear: right;
+    width: 200px;
+}
+
+.ig:hover {
+    opacity: 0.7;
+    transition: ease-in-out 0.5s;
+}
+
+#add {
+    width: 200px;
+    float: right;
+    clear: right;
+    background-color: black;
+    color: rgb(204, 23, 17);
+}
+
+#frm {
+    display: table;
+}
+
+.row {
+    display: table-row;
+}
+
+.row label {
+    display: table-cell;
+    padding: 2px;
+    text-align: left;
+}
+
+.row input {
+    display: table-cell;
+    padding: 2px;
+    width: 105px;
+    background-color: black;
+    color: whitesmoke;
+    border-color: black;
+}
+
+.row label:hover {
+    color: whitesmoke;
+}
+
+.row input:hover {
+    color: rgb(204, 23, 17);
+}
+
+#frm a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+img.srt {
+    width: 100%;
+    height: 400px;
+}
+
+#cit {
+    display: inline;
+}
+
+img.ct {
+    width: 49%;
+    height: 400px;
+}
+
+#sm {
+    display: inline;
+}
+
+.sma {
+    width: 19%;
+}
+
+img.sr {
+    width: 100%;
+    height: 450px;
+}
+
+img.front {
+    width: 32%;
+}
+
+img.smal {
+    width: 24%;
+    height: 180px;
+}
+

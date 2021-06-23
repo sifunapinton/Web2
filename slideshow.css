@@ -1,0 +1,83 @@
+body {
+    background-image: url(bg4.gif);
+}
+
+nav {
+    height: 70px;
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 205px;
+    margin-right: 205px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    vertical-align: middle;
+    padding: 0 15px;
+}
+
+nav ul li:hover {
+    color: rgb(202, 15, 8);
+}
+
+nav:hover {
+    color: rgb(10, 10, 10);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: rgb(202, 15, 8);
+}
+
+img.logo1 {
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+
+img.logo2 {
+    width: 200px;
+    height: 70px;
+    float: right;
+}
+
+[data-component="slideshow"] .slide {
+	display: none;
+  text-align: center;
+}
+
+[data-component="slideshow"] .slide.active {
+	display: block;
+}
+
+.version {
+    padding-top: 40px;
+    width: 600px;
+    height: 500px;
+}
+
+.ig {
+    float: left;
+    padding-top: 10px;
+    height: 250px;
+    width: 200px;
+}
+
+.ig2 {
+    float: right;
+    padding-top: 10px;
+    height: 250px;
+    width: 200px;
+}

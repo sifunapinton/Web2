@@ -1,3 +1,5 @@
+alert("Pease Wait For The Page To Load Fully");
+
 var slideshows = document.querySelectorAll('[data-component="slideshow"]');
 slideshows.forEach(initSlideShow);
 
